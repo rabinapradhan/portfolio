@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="45" viewBox="0 0 155 45">
+  <!-- White background -->
+  <rect width="155" height="45" fill="#ffffff"/>
+
+  <!-- Pink sparkle -->
+  <path
+    d="M20 23 L23.8 31.2 L32 35 L23.8 38.8 L20 47 L16.2 38.8 L8 35 L16.2 31.2 Z"
+    fill="#F7BFD3"
+  />
+
+  <!-- Lavender sparkle -->
+  <path
+    d="M81 9 L87.2 27.8 L106 34 L87.2 40.2 L81 59 L74.8 40.2 L56 34 L74.8 27.8 Z"
+    fill="#B1B0EF"
+  />
+
+  <!-- Cyan sparkle -->
+  <path
+    d="M144 22 L147.8 30.2 L156 34 L147.8 37.8 L144 46 L140.2 37.8 L132 34 L140.2 30.2 Z"
+    fill="#97E6F5"
+  />
+</svg>

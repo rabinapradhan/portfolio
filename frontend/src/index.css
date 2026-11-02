@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-instrument: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+
+  --color-muted-foreground: #636171;
+  --color-primary-foreground: #fef8fa;
+  --color-primary: #24222f;
+  --color-card: #ffffff;
+  --color-accent-foreground: #412331;
+  --color-accent: #fedeec;
+  --color-secondary: #f1ebfd;
+  --color-border: #e4dfeb;
+  --color-lavender: #b1b0ef;
+  --color-foreground: #1f1e28;
+  --color-pink: #f2afcb;
+  --color-cyan: #9adceb;
+  --background-image-soft:
+    radial-gradient(
+      60% 60% at 70% 40%,
+      oklch(92% 0.06 300 / 0.7),
+      transparent 70%
+    ),
+    radial-gradient(
+      40% 50% at 90% 80%,
+      oklch(93% 0.06 355 / 0.6),
+      transparent 70%
+    ),
+    radial-gradient(
+      30% 40% at 55% 85%,
+      oklch(94% 0.05 210 / 0.5),
+      transparent 70%
+    );
+
+  /* Editor shell */
+  --color-editor: #151421; /* bg-editor */
+  --color-editor-bar: #202030; /* bg-editor-bar (title/tab bars) */
+  --color-editor-fg: #dedce7; /* text-editor-fg (code text)*/
+  --color-editor-dim: #6f6f83; /* text-editor-dim (line numbers)*/
+  --color-editor-line: #2d2a41; /*  border-editor-line (borders/tabs) */
+
+  /* Syntax colors */
+  --color-syn-key: #bc98f9; /* text-syn-key / bg-syn-key */
+  --color-syn-str: #89da9b; /* text-syn-str */
+  --color-syn-fn: #6bcbf7; /* text-syn-fn */
+  --color-syn-com: #6f6f83; /* text-syn-com */
+  --color-syn-num: #ffaf68; /* text-syn-num */
+
+  /* Window dots */
+  --color-dot-red: #f75d59; /* bg-dot-red */
+  --color-dot-yellow: #f4bf3f; /* bg-dot-yellow */
+  --color-dot-green: #55c975; /* bg-dot-green */
+}
